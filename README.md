@@ -15,13 +15,14 @@ A Python script that extracts and displays saved Wi-Fi network information on Wi
 
 ## Usage
 
-1. Clone this repository or download the `wifi_secrets.py` script.
+1. Clone this repository or download the 'WiFiInfoDump.py` script.
 2. Open a command prompt with **administrator rights**.
 3. Navigate to the directory containing the script.
 4. Run the script using:
 
 ```bash
-python wifi_secrets.py
+python WiFiInfoDump.py
+```
 
 How It Works
 The script uses Windows' built-in netsh command to list Wi-Fi profiles and then retrieves detailed information for each profile, including the saved password if available. It uses Python's subprocess module to run system commands and re module to parse the output.
